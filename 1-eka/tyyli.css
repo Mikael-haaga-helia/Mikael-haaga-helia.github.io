@@ -17,11 +17,14 @@ body {
         width: 100%;
         margin: 0;
         position: relative;
-        top: 0;
 }
 
 .button-container {
 
+        background-color: #99582a;
+        padding: 15px;
+        border-radius: 0px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         display: flex;
         justify-content: center;
         width: 100%; 
@@ -31,16 +34,35 @@ body {
 }
     
 .btn {
-          width: 125px; 
-           padding: 15px;
-           font-size: 1.2em;
-          border: none;
-          background-color: #BB9457;
-          color: black;
-          border-radius: 20px;
-          cursor: pointer;
-          text-align: center;
-}
-      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 125px;
+        height: 20px;    
+        padding: 20px;
+        font-size: 1.2em;
+        border: none;
+        background-color: #BB9457;
+        color: black;
+        border-radius: 20px;
+        cursor: pointer;
+        text-align: center;
 
+}
+
+.title-container {
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+        margin-top: 10px;
+        font-size: 20px;        
+}
+
+.description-container {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        margin-top: +80px;
+        font-size: 16px;
+}
 
